@@ -11,19 +11,23 @@ fetch('http://localhost:3000/feed')
 							mainDiv.className = 'main';
 
 							const image = document.createElement('img')
-							image.style.height = '430px';
-							image.style.length = '430px'
+							image.style.height = '400px';
+							image.style.length = '400px'
 							image.src = food.display.images[0];
 
 							const aboutText = document.createElement('div');
 							aboutText.className = 'about-text';
 
 							const heading = document.createElement('h2')
+							heading.style.fontSize = '30px'
+							heading.style.color = 'yellowgreen'
 							heading.textContent = food.display.displayName;
 							aboutText.appendChild(heading)
 							
 							food.content.ingredientLines.forEach(ingredient => {
 								const p = document.createElement('p');
+								p.style.fontSize = '25px'
+								p.style.color = 'white'
 								p.append(ingredient.ingredient)
 								aboutText.appendChild(p)
 							}) 
