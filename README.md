@@ -50,5 +50,9 @@ MIT License
 
 Copyright [2022][Maureen]
 
+### Authors Info
+
+>github: 'https://github.com/MaureenMurugi'
+
 
 
