@@ -97,7 +97,7 @@ h4{
     outline: none;
     border-radius: 30px;
 }
-.newsletter form input:last-child{
+#buttonSearch{
     position: absolute;
     display: inline-block;
     outline: none;
@@ -122,6 +122,7 @@ h4{
 }
 #about-text{
     width: 550px
+
 }
 .main{
     width: 1130px;
