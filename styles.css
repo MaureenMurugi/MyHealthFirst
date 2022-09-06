@@ -208,7 +208,7 @@ h5{
     margin-bottom: 15px;
 }
 .pra p{
-    color: yellowgreen;
+    color: white;
     font-size: 21px;
     line-height: 27px;
     margin-bottom: 25px;
@@ -228,7 +228,7 @@ h5{
     cursor: pointer;
 
 }
-#monday {
+#monday, #tuesday {
     height: 70px;
     width: 70px;
 }
