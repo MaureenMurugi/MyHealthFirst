@@ -84,6 +84,10 @@ h4{
     line-height: 2px;
     font-size: 20px;
 }
+#hints {
+    font-size: 80%;
+    margin-top: -1.5em;
+}
 .newsletter form{
     width: 380px;
     max-width: 100%;
