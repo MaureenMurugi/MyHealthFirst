@@ -30,7 +30,7 @@
 
 ### Installation Process
 
-> Clone the repository: git clone git@github.com:MaureenMurugi/MyHealthFirst.git
+> Clone the repository: git clone 'git@github.com:MaureenMurugi/MyHealthFirst.git'
 
 > Unzip the cloned files in a folder of choice.
 
@@ -52,7 +52,7 @@ Copyright [2022][Maureen]
 
 ### Authors Info
 
->github: 'https://github.com/MaureenMurugi'
+> github: 'https://github.com/MaureenMurugi'
 
 
 
