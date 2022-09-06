@@ -228,8 +228,23 @@ h5{
     cursor: pointer;
 
 }
-#monday, #tuesday {
+#monday, #tuesday, #wednesday, #thursday {
     height: 70px;
     width: 70px;
+}
+.footer{
+    /* width: 100%;
+    height: 290px; */
+    background: #191919;
+    display: flex;
+    /* align-items: center;
+    flex-direction: column; */
+    justify-content: center; 
+}
+.footer p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
 }
 
