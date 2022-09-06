@@ -1,8 +1,9 @@
+document.getElementById('about').style.display = 'none';
 
-fetch('http://localhost:3000/feed')
+fetch('https://maureenmurugi.github.io/db.json')
 	.then(response => response.json())
 	.then(response => { 
-		response.forEach(food => {
+		response.feed.forEach(food => {
 					document.querySelector('form').addEventListener('submit', (e)=> {
 						e.preventDefault()
 						//handleSearch(e.target.title.value)
@@ -12,7 +13,7 @@ fetch('http://localhost:3000/feed')
 
 							const image = document.createElement('img')
 							image.style.height = '400px';
-							image.style.length = '400px'
+							image.style.width = '400px'
 							image.src = food.display.images[0];
 
 							const aboutText = document.createElement('div');
@@ -35,11 +36,18 @@ fetch('http://localhost:3000/feed')
 							mainDiv.appendChild(image);
 							mainDiv.appendChild(aboutText);
 							document.getElementById('about').appendChild(mainDiv)
+
+							document.getElementById('about').style.display = 'block'
 							
 						} 
-					}) }) })
+					})  }) })
 					
 	.catch(err => console.error(err));
+
+	document.getElementsByClassName('button').addEventListener('click', (e) => {
+		e.alert("You chose a healthy meal!")
+
+	})
 
 
 
